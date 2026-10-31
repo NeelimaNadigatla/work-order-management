@@ -4,14 +4,17 @@
 
 - **Claude Code** (Anthropic, Claude Opus 5.5 model) in the Claude desktop app.
 
-## What AI assisted with
+## What I did with
 
 - Reading the assignment brief and turning it into a schema, API and rule-enforcement plan.
+
+## WHAT AI ASSISTED WITH
 - Generating the code for the project:
   - SQL schema and migration runner
   - Express routes, services and Zod validation
   - React screens and CSS
 - Writing the test suite (45 tests) and the README.
+## WHAT I DID
 - Checking the UI in a browser:
   - The list loads and filters by priority.
   - The create form shows the Rule 6 error for an OUT_OF_SERVICE asset with a non-emergency type.
@@ -38,9 +41,7 @@ These came up during development and were fixed:
 5. **Timezone in Rule 5.** Comparing against the UTC date would reject "today" for users in IST between midnight and
    05:30. "Today" is computed in local time, and the tests pin the clock.
 
-## Significant AI-generated code that I modified
 
-None yet.
 
 ## Important technical decisions
 
