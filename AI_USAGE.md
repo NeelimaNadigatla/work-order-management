@@ -21,9 +21,6 @@
   - Creation succeeds with Emergency Repair.
   - A work order moves through OPEN → ASSIGNED → IN_PROGRESS → COMPLETED, and the history timeline updates.
 
-## What I did
-
-- Reviewed the generated project and a walkthrough of its design: data model, business rules, request flow and tests.
 
 ## Bugs / issues identified in AI-generated output
 
